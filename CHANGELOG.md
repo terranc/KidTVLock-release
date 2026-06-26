@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.0] - 2026-06-26
+## [0.1.3] - 2026-06-26
 
 ### Added
 - Hold Shift and click the install button to choose a local APK file and install it directly to the TV, bypassing the remote download. Useful for installing debug builds or older versions.
