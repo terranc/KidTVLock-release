@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.5] - 2026-07-02
+
+### Fixed
+- Package the Windows ADB runtime DLLs with the installer so bundled `adb.exe` starts without requiring users to copy `AdbWinApi.dll` manually.
+- Fail Windows builds early when required ADB runtime DLLs are missing.
+
 ## [0.1.4] - 2026-07-01
 
 ### Fixed
