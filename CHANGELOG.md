@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.4] - 2026-07-01
+
+### Fixed
+- Include stopped packages when sending the initial password broadcast so freshly installed KidTVLock builds can receive the setup command on stricter TV ROMs such as fengOS.
+
 ## [0.1.3] - 2026-06-26
 
 ### Added
