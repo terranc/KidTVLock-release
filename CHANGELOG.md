@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.6] - 2026-07-02
+
+### Added
+- Enable a KidTVLock accessibility HOME fallback when a TV ROM keeps another default HOME such as `FallbackHome` despite accepting the default-home command.
+
+### Fixed
+- Verify expected release assets before dispatching release-site synchronization.
+
 ## [0.1.5] - 2026-07-02
 
 ### Fixed
