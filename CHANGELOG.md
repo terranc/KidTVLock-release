@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8] - 2026-07-25
+
+### Fixed
+- Detect KidTVLock device-admin/owner status via `dumpsys device_policy` instead of `dpm list-owners`, which some customized ROMs (e.g. Hisense VIDAA) do not implement.
+- Fall back to `dpm set-active-admin` when `set-device-owner` fails on customized ROMs, so the防卸载 button no longer aborts with a raw stack trace.
+- Keep the original ADB error stack in the log panel only; surface a concise "当前电视系统受限，防卸载设置失败" message in the UI.
+
 ## [0.1.7] - 2026-07-25
 
 ### Fixed
