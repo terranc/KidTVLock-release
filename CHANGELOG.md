@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.7] - 2026-07-25
+
+### Fixed
+- Pin all device-specific ADB commands to the TV selected during connection, preventing offline emulators or other transports from causing `more than one device/emulator` errors.
+- Retry the initial password broadcast once when a TV ROM returns `result=0`, while preserving the raw results if the retry is not confirmed.
+
 ## [0.1.6] - 2026-07-02
 
 ### Added
