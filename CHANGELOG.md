@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.15] - 2026-08-14
+
+### Fixed
+- 第 4 步写入真实桌面广播仍失败时不再整步中止，继续把童视锁设为默认桌面。
+- 禁用系统桌面时优先禁当前默认 HOME；海信 VIDAA 的 `com.jamdeo.tv.vod` 即使出现在第三方包列表里，也不再当成解锁后桌面，并按 HOME 优先级兜底选中。
+- Shift 选择本地 APK 安装时允许版本降级（`adb install -r -d`）。电视上已是更新版本时，不再只报 `INSTALL_FAILED_VERSION_DOWNGRADE`。
+
 ## [0.1.14] - 2026-08-14
 
 ### Added
